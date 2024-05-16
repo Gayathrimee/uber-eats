@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+body{
+    background: url("images/bg.webp");
+    background-size: cover;
+    background-size:  100% 79%;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+.nav .menu-bar{
+    padding: 10px;
+    margin: 10px;
+}
+.nav .menu-bar img{
+    width: 18px;
+    position: fixed;
+    z-index: 1;
+    margin-left:20px;
+    margin-top: 4px;
+}
+
+.nav .nav-logo {
+    padding: 10px ;
+    margin:10px;
+    }
+.nav .nav-logo img{
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 63px;
+    margin-top: -25px;
+}
+.nav-button button{
+    position: fixed;
+    font-size: 15px;
+    width: 75px;
+    height: 36px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-right: 5px;
+    padding: 10px;
+}
+.nav-button .btn{
+    position: fixed;
+    top: 0;
+    right:140px;
+    margin-top: 14px;
+    margin-right: 16px;
+    font-weight: 500; 
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav-button .btn:hover{
+    background: #e0dddd;
+}
+.nav-button .signbtn{
+    position: fixed;
+    top: 0;
+    right:60px;
+    margin-top: 14px;
+    font-weight: 500; 
+    color: #ffffff;
+    background: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav-button .signbtn:hover{
+    background: #333232;
+}
+h1{
+    max-width: 60%;
+    display: block;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    font-family: UberMove,sans-serif;
+    color: #000000;
+    line-height: 650px;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0;
+}
+.form1{
+    position:absolute ;
+    left: 95px;
+    display: flex;
+    height: 55px;
+    width: 10px;
+    padding: 0;
+    cursor: pointer;
+    transform: translateY(-245px);    
+}
+.form1 > input{
+    outline: none;
+    border: none;
+    font: inherit;
+    flex: 1;
+    font-size: 18px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left:-50px;
+    padding: 20px 171px 20px 55px;
+
+}
+.form1 img{
+    position: absolute;
+    width: 35px;
+    top: 11px;
+    transform: translateX(-40px);
+
+}
+.selection{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+    left: -235px;
+    
+}
+.box{
+    position: absolute;
+    left:790px ;
+    border: none;
+    outline: none;
+    padding: 0 50px 0 30px;
+    width: 10%;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin:0;
+    transform: translateY(-245px);
+
+
+}
+.selection .icon{
+    width: 50px;
+    height: 100%;
+    position:absolute;
+    z-index: 1;
+    left: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    width: 20px;
+    color: black;
+    margin-top: -485px;
+}
+.search button{
+    display: flex;
+    font-size: 18px;
+    width: 130px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:15px 0 30px 15px;
+    color: #ffffff;
+    background: #000000; 
+    transform: translate(750px,-294px);
+}
+.search .btn{
+    position: absolute;
+    top: 0;
+    right:140px;
+    margin-top: 16px;
+    margin-right: 18px;
+    font-weight: 700;   
+}
+.head-4{
+    transform: translate(45px,-270px);
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500
+}
+.head-4 span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.down-images{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding: 0;
+    grid-column-gap:22px;
+    grid-row-gap: 0;
+    transform: translateY(180px);
+     
+}
+.down-images a{
+    text-decoration: none;
+}
+.down-images p{
+    text-decoration: underline;
+}
+.down-images img{
+    width:100%;
+    margin-left: -25px;
+}
+.down-images .image h2{
+    padding: 0;
+    font-size: 30px;
+    color: #000000;
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+}
+.down-images .image p{
+    font-size: 15px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.location{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+}
+.location h2{
+  font-size: 40px;
+  margin-top: 380px;
+  padding: 0 40px;
+}
+.location .loc img{
+    width: 1500px;
+    height: 300px;
+    padding:0 40px;
+    transform: translateY(35px);
+}
+.location .places{
+    padding: 30px 40px;
+    display: flex;
+    gap: 300px;
+    
+}
+.location .places .place{
+    margin: 0;   
+    line-height: 24px;
+    
+}
+.location .places .place ul li{
+    list-style: none;
+    margin: 26px ; 
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.countries{
+    padding: 240px 20px;
+    margin: 0;
+    position: absolute;
+    top: 2100px;
+}
+.countries .country{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 1100px;
+}
+.countries .country h2{
+    font-size: 45px;
+    padding: 0;
+    margin: 0 ;
+}
+.countries .country a{
+    color: #000000;
+    padding:15px 20px ;
+    font-size: 20px;
+}
+.country-names{
+    position: absolute;
+    margin-top: 1165px;
+    display: flex;
+    gap: 300px;
+    padding: 30px 35px;
+}
+.country-names .names{
+    margin: 0;
+    line-height: 24px;
+}
+.country-names .names ul li{
+    list-style: none;
+    margin: 26px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+

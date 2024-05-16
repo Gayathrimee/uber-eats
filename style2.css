@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("images/bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav .nav-logo {
+    padding: 10px ;
+    margin:10px;
+    }
+.nav .nav-logo img{
+    width: 90px;
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 5.2px;
+}
+.nav-button button{
+    font-size: 15px;
+    width: 75px;
+    height: 36px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-right: 5px;
+    padding: 10px;
+}
+.nav-button .btn{
+    position: fixed;
+    top: 0;
+    right:140px;
+    margin-top: 14px;
+    margin-right: 16px;
+    font-weight: 500; 
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav-button .btn:hover{
+    background: #e0dddd;
+}
+.nav-button .signbtn{
+    position: fixed;
+    top: 0;
+    right:60px;
+    margin-top: 14px;
+    font-weight: 500; 
+    color: #ffffff;
+    background: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav-button .signbtn:hover{
+    background: #333232;
+}
+h1{
+    max-width: 60%;
+    display: block;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    font-family: UberMove,sans-serif;
+    color: #000000;
+    line-height: 700px;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0;
+}
+.form1{
+    position:relative ;
+    left: 95px;
+    display: flex;
+    height: 55px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+    transform: translateY(-275px);    
+}
+.form1 > input{
+    outline: none;
+    border: none;
+    font: inherit;
+    flex: 1;
+    font-size: 18px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left:-50px;
+    padding: 20px 21px 20px 55px;
+
+}
+.form1 img{
+    position: absolute;
+    width: 35px;
+    top: 11px;
+    transform: translateX(-40px);
+
+}
+.selection{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+    left: -235px;
+}
+.box{
+    border: none;
+    outline: none;
+    padding: 0 50px 0 30px;
+    width: 10%;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin:0;
+    transform: translateY(-330px);
+
+
+}
+.selection .icon{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    width: 20px;
+    margin-top: -655px;
+}
+
+
