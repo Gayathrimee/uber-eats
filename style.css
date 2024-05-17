@@ -212,6 +212,7 @@ h1{
 }
 .down-images .image p{
     font-size: 15px;
+    color: #000000;
     font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .location{
@@ -231,7 +232,7 @@ h1{
     transform: translateY(35px);
 }
 .location .places{
-    padding: 30px 40px;
+    padding: 20px 15px;
     display: flex;
     gap: 300px;
     
@@ -247,6 +248,11 @@ h1{
     font-size: 16px;
     font-family: sans-serif;
 }
+.location .places .place .sec{
+    display: flex;
+    gap: 220px;
+    margin-left: -40px;
+}
 .countries{
     padding: 240px 20px;
     margin: 0;
@@ -260,9 +266,11 @@ h1{
     gap: 1100px;
 }
 .countries .country h2{
-    font-size: 45px;
+    font-size: 35px;
+    font-family: UberMove, sans-serif;
+    font-weight: 800;
     padding: 0;
-    margin: 0 ;
+    margin: 10px 20px;
 }
 .countries .country a{
     color: #000000;
@@ -273,8 +281,8 @@ h1{
     position: absolute;
     margin-top: 1165px;
     display: flex;
-    gap: 300px;
-    padding: 30px 35px;
+    gap: 250px;
+    padding: 10px 15px;
 }
 .country-names .names{
     margin: 0;
@@ -286,7 +294,54 @@ h1{
     font-size: 16px;
     font-family: sans-serif;
 }
+/*#horizontal-line{
+    width: 1px;
+    height: 500px;
+    background-color: silver;
+    position: absolute;
+    top: -300px;
+}*/
+.conclusion{
+    position: absolute;
+    top: 3000px;
+}
+.conclusion .images{
+    margin: 0 350px;
+    padding: 10px 10px 0 0;
+  
+}
+.conclusion .images img{
+    width: 100%;
+}
+.conclusion .images .apps img{
+    width: 150px;
+    
+} 
+.conclusion .images .apps{
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    display: flex;
+    justify-content: space-between;
+} 
+.others{
+    margin: 30px 50px;
+    padding: 30px 10px;
+    transform: translate(810px,-100px);
+}
+.others .other{
+    display: flex;
+    gap: 220px;
+}
+.others .other ul{
+     list-style: none;
+     line-height: 2.5;
+}
+.others .other ul li{
+     font-size: 16px;
+     font-family: sans-serif;
 
+}
 
 
 
